@@ -16,8 +16,6 @@ This assignment includes the following steps:
    - Using **2 similarity measurement methods** (e.g., Cosine Similarity, Jaccard Similarity).
 5. **Programming Language**:
    - Python or other relevant programming languages are allowed.
-6. **Deadline**:
-   - Next week.
 
 ---
 
@@ -63,4 +61,3 @@ This project was completed by:
 
 ---
 
-Feel free to let me know if you need further modifications! 😊
