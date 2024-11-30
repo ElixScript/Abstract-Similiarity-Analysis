@@ -1,66 +1,66 @@
+# 📚 **Pattern Recognition Assignment: Abstract Similarity Analysis**
 
-
-# 📚 **Tugas Pattern Recognition: Analisis Kemiripan Abstrak**
-
-Repository ini berisi implementasi tugas **Pattern Recognition** untuk membandingkan tingkat kemiripan antar abstrak makalah dari **IJCCS (Indonesian Journal of Computing and Cybernetics Systems)**.
+This repository contains the implementation of a **Pattern Recognition** task to compare the similarity levels between abstracts of research papers from **IJCCS (Indonesian Journal of Computing and Cybernetics Systems)**.
 
 ---
 
-## 📋 **Deskripsi Tugas**
-Tugas ini mencakup langkah-langkah berikut:
-1. **Dataset**: 
-   - Menggunakan 10 abstrak makalah dari IJCICS dalam **bahasa Indonesia** atau **bahasa Inggris** (dari 5 tahun terakhir).
-2. **Preprocessing Teks**:
-   - Mengikuti seluruh langkah-langkah pemrosesan teks seperti tokenisasi, stopword removal, dan stemming.
-3. **Representasi Fitur**:
-   - Membandingkan abstrak menggunakan **2 metode representasi fitur** (contoh: TF-IDF, Word2Vec).
-4. **Pengukuran Similaritas**:
-   - Menggunakan **2 metode perhitungan similaritas** (contoh: Cosine Similarity, Jaccard Similarity).
-5. **Penggunaan Bahasa**:
-   - Pemrograman Python atau bahasa lain diperbolehkan.
+## 📋 **Assignment Description**
+This assignment includes the following steps:
+1. **Dataset**:
+   - Using 10 abstracts from IJCCS in **Indonesian** or **English** (from the last 5 years).
+2. **Text Preprocessing**:
+   - Following all text preprocessing steps, such as tokenization, stopword removal, and stemming.
+3. **Feature Representation**:
+   - Comparing abstracts using **2 feature representation methods** (e.g., TF-IDF, Word2Vec).
+4. **Similarity Measurement**:
+   - Using **2 similarity measurement methods** (e.g., Cosine Similarity, Jaccard Similarity).
+5. **Programming Language**:
+   - Python or other relevant programming languages are allowed.
 6. **Deadline**:
-   - Minggu depan.
+   - Next week.
 
 ---
 
-## 🚀 **Tujuan Proyek**
-- **Menganalisis kemiripan antar dokumen** menggunakan metode representasi fitur dan pengukuran similaritas yang berbeda.
-- Memahami bagaimana langkah-langkah pemrosesan teks memengaruhi hasil analisis kemiripan.
+## 🚀 **Project Objectives**
+- **Analyze the similarity between documents** using different feature representation methods and similarity measurements.
+- Understand how text preprocessing steps affect the similarity analysis results.
 
 ---
 
-## 🛠️ **Teknologi dan Library**
-- **Bahasa Pemrograman**:
-  - Python (atau bahasa lain yang relevan).
-- **Library yang Disarankan**:
+## 🛠️ **Technologies and Libraries**
+- **Programming Language**:
+  - Python (or other relevant programming languages).
+- **Recommended Libraries**:
   - Scikit-learn
-  - NLTK atau Sastrawi (untuk preprocessing teks bahasa Indonesia)
+  - NLTK or Sastrawi (for preprocessing Indonesian texts)
   - Gensim
-  - NumPy dan Pandas
-  - Matplotlib atau Seaborn (untuk visualisasi)
+  - NumPy and Pandas
+  - Matplotlib or Seaborn (for visualization)
 
 ---
 
-## 🔍 **Langkah-Langkah Pemrosesan**
-1. **Pengumpulan Data**:
-   - Dataset berupa 10 abstrak dari IJCICS (format `.txt` atau `.csv`).
-2. **Preprocessing Teks**:
-   - Cleaning: Menghapus karakter khusus, angka, dan simbol.
-   - Tokenisasi: Memecah teks menjadi token.
-   - Stopword Removal: Menghapus kata-kata yang tidak memiliki makna penting.
-   - Stemming: Mengubah kata menjadi bentuk dasarnya.
-3. **Representasi Fitur**:
-   - TF-IDF: Representasi berbasis statistik.
-   - Word2Vec: Representasi berbasis embedding.
-4. **Penghitungan Similaritas**:
-   - Cosine Similarity: Mengukur sudut antara dua vektor.
-   - Jaccard Similarity: Mengukur kesamaan antara dua set.
+## 🔍 **Processing Steps**
+1. **Data Collection**:
+   - Dataset consists of 10 abstracts from IJCCS (in `.txt` or `.csv` format).
+2. **Text Preprocessing**:
+   - Cleaning: Remove special characters, numbers, and symbols.
+   - Tokenization: Split text into tokens.
+   - Stopword Removal: Remove insignificant words.
+   - Stemming: Convert words to their base forms.
+3. **Feature Representation**:
+   - TF-IDF: A statistical-based representation.
+   - Word2Vec: An embedding-based representation.
+4. **Similarity Measurement**:
+   - Cosine Similarity: Measures the angle between two vectors.
+   - Jaccard Similarity: Measures the overlap between two sets.
 
 ---
 
-## 📈 **Hasil**
-- **Metrik Evaluasi**: Analisis kemiripan ditampilkan menggunakan matriks similaritas.
-- **Visualisasi**: Heatmap digunakan untuk memvisualisasikan hubungan antar abstrak.
+## ✍️ **Author**
+This project was completed by:
+- **Name**: Bagus Cipta Pratama  
+- **Student ID**: 23/516539/PA/22097  
 
 ---
 
+Feel free to let me know if you need further modifications! 😊
