@@ -1,41 +1,66 @@
-# 🎯 Tugas Pattern Recognition
 
-Selamat datang di repository ini! Repository ini berisi tugas **Pattern Recognition** yang mencakup implementasi algoritma, analisis data, serta visualisasi yang digunakan untuk pengenalan pola. Proyek ini menggunakan bahasa Python dengan dukungan pustaka ilmiah seperti NumPy, Pandas, Scikit-learn, dan Matplotlib.
 
----
+# 📚 **Tugas Pattern Recognition: Analisis Kemiripan Abstrak**
 
-## 📋 **Deskripsi Proyek**
-
-Pattern recognition adalah cabang ilmu komputer yang fokus pada pengenalan pola atau struktur dalam data. Dalam proyek ini, kami mengeksplorasi:
-
-- **Data Preprocessing**: Menyiapkan data dengan pembersihan dan normalisasi.
-- **Feature Extraction**: Teknik untuk mendapatkan fitur relevan dari dataset.
-- **Modeling & Classification**: Implementasi algoritma machine learning untuk pengenalan pola.
-- **Evaluation Metrics**: Pengukuran performa model seperti akurasi, presisi, recall, dan F1-score.
-- **Visualisasi Hasil**: Diagram, heatmap, dan visualisasi lain untuk mempermudah interpretasi.
+Repository ini berisi implementasi tugas **Pattern Recognition** untuk membandingkan tingkat kemiripan antar abstrak makalah dari **IJCCS (Indonesian Journal of Computing and Cybernetics Systems)**.
 
 ---
 
-## 🚀 **Fitur Utama**
-- **Penggunaan Algoritma Machine Learning**:
-  - Support Vector Machines (SVM)
-  - Decision Tree
-  - Random Forest
-  - K-Nearest Neighbors (KNN)
-- **Visualisasi Heatmap** untuk menganalisis korelasi antar data.
-- **Analisis Performa Model** dengan metrik evaluasi standar.
+## 📋 **Deskripsi Tugas**
+Tugas ini mencakup langkah-langkah berikut:
+1. **Dataset**: 
+   - Menggunakan 10 abstrak makalah dari IJCICS dalam **bahasa Indonesia** atau **bahasa Inggris** (dari 5 tahun terakhir).
+2. **Preprocessing Teks**:
+   - Mengikuti seluruh langkah-langkah pemrosesan teks seperti tokenisasi, stopword removal, dan stemming.
+3. **Representasi Fitur**:
+   - Membandingkan abstrak menggunakan **2 metode representasi fitur** (contoh: TF-IDF, Word2Vec).
+4. **Pengukuran Similaritas**:
+   - Menggunakan **2 metode perhitungan similaritas** (contoh: Cosine Similarity, Jaccard Similarity).
+5. **Penggunaan Bahasa**:
+   - Pemrograman Python atau bahasa lain diperbolehkan.
+6. **Deadline**:
+   - Minggu depan.
 
 ---
 
-## 🛠️ **Teknologi yang Digunakan**
+## 🚀 **Tujuan Proyek**
+- **Menganalisis kemiripan antar dokumen** menggunakan metode representasi fitur dan pengukuran similaritas yang berbeda.
+- Memahami bagaimana langkah-langkah pemrosesan teks memengaruhi hasil analisis kemiripan.
 
-- **Python 3.x**
-- **Jupyter Notebook**
-- **Library**:
-  - NumPy
-  - Pandas
+---
+
+## 🛠️ **Teknologi dan Library**
+- **Bahasa Pemrograman**:
+  - Python (atau bahasa lain yang relevan).
+- **Library yang Disarankan**:
   - Scikit-learn
-  - Matplotlib
-  - Seaborn
+  - NLTK atau Sastrawi (untuk preprocessing teks bahasa Indonesia)
+  - Gensim
+  - NumPy dan Pandas
+  - Matplotlib atau Seaborn (untuk visualisasi)
 
 ---
+
+## 🔍 **Langkah-Langkah Pemrosesan**
+1. **Pengumpulan Data**:
+   - Dataset berupa 10 abstrak dari IJCICS (format `.txt` atau `.csv`).
+2. **Preprocessing Teks**:
+   - Cleaning: Menghapus karakter khusus, angka, dan simbol.
+   - Tokenisasi: Memecah teks menjadi token.
+   - Stopword Removal: Menghapus kata-kata yang tidak memiliki makna penting.
+   - Stemming: Mengubah kata menjadi bentuk dasarnya.
+3. **Representasi Fitur**:
+   - TF-IDF: Representasi berbasis statistik.
+   - Word2Vec: Representasi berbasis embedding.
+4. **Penghitungan Similaritas**:
+   - Cosine Similarity: Mengukur sudut antara dua vektor.
+   - Jaccard Similarity: Mengukur kesamaan antara dua set.
+
+---
+
+## 📈 **Hasil**
+- **Metrik Evaluasi**: Analisis kemiripan ditampilkan menggunakan matriks similaritas.
+- **Visualisasi**: Heatmap digunakan untuk memvisualisasikan hubungan antar abstrak.
+
+---
+
