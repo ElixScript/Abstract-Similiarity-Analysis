@@ -8,14 +8,10 @@ This repository contains the implementation of a **Pattern Recognition** task to
 This assignment includes the following steps:
 1. **Dataset**:
    - Using 10 abstracts from IJCCS in **Indonesian** or **English** (from the last 5 years).
-2. **Text Preprocessing**:
-   - Following all text preprocessing steps, such as tokenization, stopword removal, and stemming.
-3. **Feature Representation**:
-   - Comparing abstracts using **2 feature representation methods** (e.g., TF-IDF, Word2Vec).
-4. **Similarity Measurement**:
-   - Using **2 similarity measurement methods** (e.g., Cosine Similarity, Jaccard Similarity).
-5. **Programming Language**:
-   - Python or other relevant programming languages are allowed.
+2. **Feature Representation and similiarity measurement**:
+   - Comparing abstracts using **TF-IDF method and Cosine Similiarity**.
+3. **Programming Language**:
+   - Python 
 
 ---
 
