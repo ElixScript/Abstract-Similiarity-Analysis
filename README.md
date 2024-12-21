@@ -21,18 +21,6 @@ This assignment includes the following steps:
 
 ---
 
-## 🛠️ **Technologies and Libraries**
-- **Programming Language**:
-  - Python (or other relevant programming languages).
-- **Recommended Libraries**:
-  - Scikit-learn
-  - NLTK or Sastrawi (for preprocessing Indonesian texts)
-  - Gensim
-  - NumPy and Pandas
-  - Matplotlib or Seaborn (for visualization)
-
----
-
 ## 🔍 **Processing Steps**
 1. **Data Collection**:
    - Dataset consists of 10 abstracts from IJCCS (in `.txt` or `.csv` format).
@@ -42,11 +30,9 @@ This assignment includes the following steps:
    - Stopword Removal: Remove insignificant words.
    - Stemming: Convert words to their base forms.
 3. **Feature Representation**:
-   - TF-IDF: A statistical-based representation.
-   - Word2Vec: An embedding-based representation.
+   - TF-IDF (Term Frequency-Inverse Document Frequency) is used as the feature representation.
 4. **Similarity Measurement**:
    - Cosine Similarity: Measures the angle between two vectors.
-   - Jaccard Similarity: Measures the overlap between two sets.
 
 ---
 
