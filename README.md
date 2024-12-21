@@ -1,4 +1,4 @@
-# 📚 **Pattern Recognition Assignment: Abstract Similarity Analysis**
+# 📚 **Pattern Recognition Assignment: Abstract Similarity Analysi**
 
 This repository contains the implementation of a **Pattern Recognition** task to compare the similarity levels between abstracts of research papers from **IJCCS (Indonesian Journal of Computing and Cybernetics Systems)**.
 
